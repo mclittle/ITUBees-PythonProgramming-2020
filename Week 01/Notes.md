@@ -53,11 +53,14 @@ is_startswith_s = a.startswith("S") # result is a boolean
 is_endswith_ing = a.endswith("ing") # result is a boolean
 uppercase = a.upper() # result is a new string
 lowercase = a.lower() # result is a new string
+formatted = "{0} courses for {1} weeks by {club}".format("python", 10, club='ITUBees') # result is a new string
 
+print(a)
 print(is_startswith_s) # prints True
 print(is_endswith_ing) # prints True
 print(uppercase) # prints "SOME STRING"
 print(lowercase) # prints "some string"
+print(formatted) # prints "python courses for 10 weeks by ITUBees"
 ```
 
 ### String Formatting

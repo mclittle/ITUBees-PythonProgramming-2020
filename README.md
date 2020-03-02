@@ -3,3 +3,7 @@ An information and data repository for lectures about Introduction to Programmin
 
 ## Python and Tools Setups
 https://drive.google.com/folderview?id=1wF_uB-l3JVEJmeaM6aL3YjpczIsxKMmP
+
+## Python Official Documentation and Tutorials
+* https://docs.python.org/3/index.html
+* https://docs.python.org/3/tutorial/index.html

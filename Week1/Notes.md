@@ -30,13 +30,18 @@ is_male = True
 
 ## Basic Operations
 ```py
-a = 20
-b = 16
+a = 20.0
+b = 16.0
 
 c = a + b
 d = a * b
-e = a / b
-d = a - b
+e = a / b # gives 1.25 (in Python 2.x it gives 1)
+f = a - b
+g = a ** 2
+h = a % b # gives 4 (remaining)
+i = round(12.6)
+j = abs(-10)
+k = a // b # gives 1 (answer)
 ```
 
 ## Basic String Methods
@@ -66,9 +71,9 @@ print(a) # prints "The coder name is Ismail"
 ### Multiline Strings
 ```py
 a = '''
-Mr. Brown,
+Mr. Smith,
 
-This is a multiline string to you from deep of my heart.
+This is a multiline string that comes to you from the deep of my heart.
 
 Sincerely,
 Ismail Kucuk

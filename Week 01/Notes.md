@@ -76,7 +76,7 @@ print(a) # prints "The coder name is Ismail"
 a = '''
 Mr. Smith,
 
-This is a multiline string that comes to you from the deep of my heart.
+This is a multiline string that comes to you from me.
 
 Sincerely,
 Ismail Kucuk

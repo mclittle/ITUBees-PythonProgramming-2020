@@ -20,7 +20,7 @@ print('Hello, "ITUBees"')
 print("Hello, \"ITU'Bees\"")
 ```
 
-## Basic Data Types
+## Basic Data Types and Variables
 ```py
 age = 20
 pi = 3.14

@@ -20,7 +20,7 @@
 ### Dictionaries
 * Add, remove items
 ### Conditional Operations 
-* if, else, elif
+* if, else, elif, in, not in, is, is not
 * <, >, <=, =>
 
 ## Week 3

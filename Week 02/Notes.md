@@ -1,7 +1,6 @@
 # Week 2
 ## Lists
-
-### Define List
+### Define list
 ```py
 list = []
 print(type(list))  # prints <class 'list'>
@@ -18,7 +17,7 @@ variables.pop()  # removes last element
 print(variables)
 ```
 
-### Indexing and Manipulating
+### Indexing and manipulating
 ```py
 fruits = ['apple', 'orange', 'watermelon', 'banana', 'kiwi']
 print(fruits[0])  # prints only [first element]
@@ -34,7 +33,7 @@ fruits[0] = "strawberry"
 print(fruits)  # prints "strawberry"
 ```
 
-### 2D Arrays
+### 2D arrays
 ```py
 matrix = [[11, 12, 13], [21, 22, 23], [31, 32, 33]]
 print(matrix[0])  # gives first row
@@ -42,14 +41,13 @@ print(matrix[0][1])  # gives i_12
 ```
 
  ## Dictionaries
- 
- ### Define Dictionary
+ ### Define dictionary
  ```py
 dict = {}
 print(type(dict))
  ```
  
- ### Reaching Dictionary Entries
+ ### Reaching dictionary entries
  ```py
 students = {1: 'navid', 2: 'ismail'}
 print(students)  # prints dictionary
@@ -60,9 +58,7 @@ print(words['orange'])  # prints "portakal"
  ```
 
 ## Conditional Operators
-
 ### if, else, elif
-
 ```py
 if True:
     print('Hello, ITUBees')
@@ -74,6 +70,12 @@ if is_male == True:  # Can be used as "if is_male:"
     print('User is male')
 else:
     print('User is female')
+
+if is_male != True:
+    print('User is not male')
+
+if not is_male:
+    print('User is not male')
 ```
 
 ```py
@@ -88,6 +90,21 @@ else:
     print('Unknown gender')
 ```
 
+### Comparasion operators
+```py
+if 10 == 10:
+    print('10 equals to 10')
+
+a = 12
+b = 12
+if a == b:
+    print('a equals to b')
+elif a > b:
+    print('a greater than b')
+elif a < b:
+    print('a smaller than b')
+```
+
 ```py
 number = 13
 max_limit = 10
@@ -97,10 +114,12 @@ elif number >= 10:  # else statement can be used
     print('number is out of the limits')
 ```
 
+### and, or statements
 ```py
 number = 7
 max_limit = 10
 min_limit = 3
+
 
 if number > min_limit and number < max_limit:  # min_limit < number < max_limit can be used
     print('number is in the limits')
@@ -108,6 +127,22 @@ elif number <= min_limit or number >= max_limit:  # else statement can be used
     print('number is out of the limits')
 ```
 
+### Assign comparasion result to variable
+```py
+number = 7
+max_limit = 10
+min_limit = 3
+
+# comparasion operators returns a boolean type value, then if statements can check the value of comparasion result
+
+upper_check = number < max_limit  # result is a boolean type
+lower_check = number > min_limit  # result is a boolean type
+
+if upper_check and lower_check:
+    print('number is in the limits')
+elif not upper_check or not lower_check:  # else statement can be used
+    print('number is out of the limits')
+```
 
 
 

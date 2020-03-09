@@ -15,6 +15,9 @@ print(variables)
 
 variables.pop()  # removes last element
 print(variables)
+
+variables.remove('ITUBees')  # remove first matched element
+print(variables)
 ```
 
 ### Indexing and manipulating
@@ -94,6 +97,7 @@ else:
 ```py
 if 10 == 10:
     print('10 equals to 10')
+print('print always')
 
 a = 12
 b = 12
@@ -143,8 +147,6 @@ if upper_check and lower_check:
 elif not upper_check or not lower_check:  # else statement can be used
     print('number is out of the limits')
 ```
-
-
 
 
 
